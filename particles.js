@@ -8,7 +8,7 @@ class Particle {
     this.s = random(40, 70)
     this.r = r
     this.maxForce = mforce || 0.3
-    this.maxSpeed = mspeed || 7
+    this.maxSpeed = mspeed || 10
     this.lifespan = 255
   }
   behaviours(){
