@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <style media="screen"> body{margin:0; padding:0;}
-      .absolute{ position: absolute; color: #eee; left: 20px; top: 10px;}
-    </style>
-    <title>Heart-fireworks </title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-    <script src="sketch.js" charset="utf-8"></script>
-    <script src="fireworks.js" charset="utf-8"></script>
-    <script src="particles.js" charset="utf-8"></script>
-  </head>
-  <body>
-    <label class="absolute">
-      <input type="checkbox" id="cbox" value=""> Randomize
-    </label>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .absolute {
+      position: absolute;
+      color: #eee;
+      left: 20px;
+      top: 10px;
+    }
+    .hello-text {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 50px;
+      font-family: 'Segoe Script', cursive;
+      color: #5e0412;
+      font-weight: bold; /* Added font-weight to make the text bolder */
+    }
+  </style>
+  <title>Heart-fireworks</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="sketch.js" charset="utf-8"></script>
+  <script src="fireworks.js" charset="utf-8"></script>
+  <script src="particles.js" charset="utf-8"></script>
+</head>
+<body>
+  <div class="hello-text">
+    <p>Your heart is like a firework: exploding with love</p>
+  </div>
+
+  <label class="absolute">
+    <input type="checkbox" id="cbox" value=""> Randomize
+  </label>
+</body>
 </html>
