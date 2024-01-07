@@ -12,6 +12,7 @@
       color: #eee;
       left: 20px;
       top: 20px;
+      font-size: 24px; /* Increased font size for the checkbox and text */
     }
     .hello-text {
       text-align: center;
@@ -28,6 +29,7 @@
     /* Remove the outline of the checkbox */
     input[type="checkbox"] {
       outline: none;
+      transform: scale(2); /* Increasing the checkbox size */
     }
   </style>
   <title>Heart-fireworks</title>
@@ -42,7 +44,7 @@
   </div>
 
   <label class="absolute">
-    <input type="checkbox" id="cbox" value=""> Randomize
+    <input type="checkbox" id="cbox" value="" style="transform: scale(2);"> Randomize <!-- Increased checkbox size -->
   </label>
 </body>
 </html>
